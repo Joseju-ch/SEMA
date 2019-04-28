@@ -119,9 +119,9 @@ active proctype entorno(){
     :: boton_luz=1;
     :: presencia=1;
     :: presencia_luz=1;
-    :: deadline=5;
+    :: deadline=1;
     :: deadline_code=1;
     :: skip;
-    fi; time=time+1;  printf ("boton_codigo= %d,boton_luz= %d deadline_code =%d,Code_OK = %d, Actual= %d, input[0]= %d , input[1]= %d , input[2]= %d \n", boton_codigo, boton_luz ,deadline_code, Code_OK, Actual, input[0], input[1], input[2]);
+    fi;  printf ("boton_codigo= %d,boton_luz= %d deadline_code =%d,Code_OK = %d, Actual= %d, input[0]= %d , input[1]= %d , input[2]= %d \n", boton_codigo, boton_luz ,deadline_code, Code_OK, Actual, input[0], input[1], input[2]);
   od
 }
